@@ -11,6 +11,7 @@ namespace GraphicsEngine
 		~WindowInterface();
 
 		bool Create(int aWidth, int aHeigth);
+		Window* GetWindow();
 
 	private:
 		Window* myWindow;

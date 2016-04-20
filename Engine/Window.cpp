@@ -56,4 +56,9 @@ namespace GraphicsEngine
 
 		return true;
 	}
+
+	HWND& Window::GetWindowHandle()
+	{
+		return myWindow;
+	}
 }

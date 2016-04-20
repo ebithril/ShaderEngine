@@ -11,6 +11,7 @@ namespace GraphicsEngine
 		~Window();
 
 		bool Create(int aWidth, int aHeigth);
+		HWND& GetWindowHandle();
 	private:
 		HWND myWindow;
 	};

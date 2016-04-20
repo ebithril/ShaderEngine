@@ -19,4 +19,9 @@ namespace GraphicsEngine
 	{
 		return myWindow->Create(aWidth, aHeigth);
 	}
+
+	Window* WindowInterface::GetWindow()
+	{
+		return myWindow;
+	}
 }

@@ -37,6 +37,15 @@
     <Filter Include="Engine\DirectX\DirectX">
       <UniqueIdentifier>{eb33f47b-a7f5-4ca7-952a-59ad5a6ac7a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{ccca4975-bce2-46fb-a819-2a6ea908760d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Interface">
+      <UniqueIdentifier>{463d0685-dc9e-45d9-8bfa-a88606f832d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Texture">
+      <UniqueIdentifier>{8dea3727-ad33-4dc7-941d-9e1ed441b849}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine_Precompiled.h">
@@ -63,7 +72,15 @@
     <ClInclude Include="DirectXInterface.h">
       <Filter>Engine\DirectX\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="DirectX.h" />
+    <ClInclude Include="DirectX.h">
+      <Filter>Engine\DirectX\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInterface.h">
+      <Filter>Texture\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture\Texture</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine_Precompiled.cpp">
@@ -84,6 +101,14 @@
     <ClCompile Include="DirectXInterface.cpp">
       <Filter>Engine\DirectX\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="DirectX.cpp" />
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Engine\DirectX\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureInterface.cpp">
+      <Filter>Texture\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture\Texture</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
