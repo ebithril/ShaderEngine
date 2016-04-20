@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{8bfcf182-f33a-4d7f-a096-33b5dc79c3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MISC">
+      <UniqueIdentifier>{8287cd11-5b5c-47b7-a1f5-2e11b464e8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MISC\Precompiled">
+      <UniqueIdentifier>{a2f7b90a-a044-4892-93d2-729e4b25de26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MISC\Includes">
+      <UniqueIdentifier>{d8451888-6281-4a0d-b737-77451a2fc124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Interface">
+      <UniqueIdentifier>{59f7305e-b55e-4300-9cc5-b7ba38c015b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Window">
+      <UniqueIdentifier>{ce92db2b-4f3c-424d-aaa9-4505e33a661b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{04c81de5-9537-40a1-b62e-757b835fea05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MISC\Globals">
+      <UniqueIdentifier>{ba2d766c-2daa-447f-b152-27c7c5675e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Engine">
+      <UniqueIdentifier>{08a36d2a-762b-483c-b109-a752bc51fc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX">
+      <UniqueIdentifier>{c0efada6-2b6e-4b5e-871f-77e90e13f5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX\Interface">
+      <UniqueIdentifier>{ebdafde3-0058-4e07-bfe1-72bab02a08f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX\DirectX">
+      <UniqueIdentifier>{eb33f47b-a7f5-4ca7-952a-59ad5a6ac7a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine_Precompiled.h">
+      <Filter>MISC\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInclude.h">
+      <Filter>MISC\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowInterface.h">
+      <Filter>Window\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunctions.h">
+      <Filter>MISC\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXIncludes.h">
+      <Filter>MISC\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXInterface.h">
+      <Filter>Engine\DirectX\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine_Precompiled.cpp">
+      <Filter>MISC\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowInterface.cpp">
+      <Filter>Window\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunctions.cpp">
+      <Filter>MISC\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXInterface.cpp">
+      <Filter>Engine\DirectX\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp" />
+  </ItemGroup>
+</Project>
