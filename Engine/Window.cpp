@@ -21,6 +21,8 @@ namespace GraphicsEngine
 
 	bool Window::Create(int aWidth, int aHeigth)
 	{
+		myWidth = aWidth;
+		myHeight = aHeigth;
 		HINSTANCE Hinstance = GetModuleHandle(NULL);
 
 		WNDCLASSEX wcex;
@@ -60,5 +62,15 @@ namespace GraphicsEngine
 	HWND& Window::GetWindowHandle()
 	{
 		return myWindow;
+	}
+
+	int Window::GetWidth() const
+	{
+		return myWidth;
+	}
+
+	int Window::GetHeight() const
+	{
+		return myHeight;
 	}
 }

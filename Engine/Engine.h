@@ -1,6 +1,7 @@
 #pragma once
 
 #include "WindowInterface.h"
+#include "DirectXInterface.h"
 
 namespace GraphicsEngine
 {
@@ -11,6 +12,7 @@ namespace GraphicsEngine
 
 		bool Init(int aWidth, int aHeigth);
 		void Destroy();
+		void Render();
 
 	private:
 		Engine();
@@ -19,6 +21,7 @@ namespace GraphicsEngine
 		static Engine* ourInstance;
 		
 		WindowInterface myWindow;
+		DirectXInterface myDirectXInterface;
 	};
 }
 

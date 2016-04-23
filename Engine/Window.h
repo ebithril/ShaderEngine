@@ -12,8 +12,14 @@ namespace GraphicsEngine
 
 		bool Create(int aWidth, int aHeigth);
 		HWND& GetWindowHandle();
+
+		int GetWidth() const;
+		int GetHeight() const;
 	private:
 		HWND myWindow;
+
+		int myWidth;
+		int myHeight;
 	};
 }
 

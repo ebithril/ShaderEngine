@@ -77,6 +77,7 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="Engine_Precompiled.h" />
     <ClInclude Include="GlobalFunctions.h" />
+    <ClInclude Include="Structs.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TextureInterface.h" />
     <ClInclude Include="Window.h" />

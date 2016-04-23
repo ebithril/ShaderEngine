@@ -22,6 +22,11 @@ namespace GraphicsEngine
 			return false;
 		}
 
+		if (myDirectXInterface.Init(myWindow) == false)
+		{
+			return false;
+		}
+
 		return true;
 	}
 
@@ -37,5 +42,12 @@ namespace GraphicsEngine
 
 	Engine::~Engine()
 	{
+	}
+
+	void Engine::Render()
+	{
+		myDirectXInterface.BeginScene();
+
+		myDirectXInterface.EndScene();
 	}
 }

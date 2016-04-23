@@ -46,6 +46,9 @@
     <Filter Include="Texture\Texture">
       <UniqueIdentifier>{8dea3727-ad33-4dc7-941d-9e1ed441b849}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MISC\Structs">
+      <UniqueIdentifier>{d85df467-d55d-4d48-bf62-3bdb2e4e8303}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine_Precompiled.h">
@@ -80,6 +83,9 @@
     </ClInclude>
     <ClInclude Include="Texture.h">
       <Filter>Texture\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>MISC\Structs</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
