@@ -120,9 +120,7 @@ namespace GraphicsEngine
 
 	void DirectX::ClearRenderTarget(TextureInterface& aTexture)
 	{
-		static int number = 0;
-		number++;
-		float color[4] = { sin(number / 1010), sin(number / 1000), sin(number / 1100), 1.0f };
+		float color[4] = { 1.f, 0.f, 1.f, 1.0f };
 		myContext->ClearRenderTargetView(aTexture.GetTexture()->GetRenderTargetView(), color);
 	}
 

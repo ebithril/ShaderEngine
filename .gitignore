@@ -174,8 +174,8 @@ BundleArtifacts/
 
 *.lib
 
-!/Libraries/Debug/
-!/Libraries/Release/
+!/Libraries/Debug/*
+!/Libraries/Release/*
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
