@@ -172,6 +172,11 @@ ApplicationInsights.config
 AppPackages/
 BundleArtifacts/
 
+*.lib
+
+!/Libraries/Debug/
+!/Libraries/Release/
+
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
@@ -260,7 +265,6 @@ _Pvt_Extensions
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
