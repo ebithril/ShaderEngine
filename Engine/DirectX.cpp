@@ -126,7 +126,7 @@ namespace GraphicsEngine
 
 	void DirectX::ClearDepthStencil(TextureInterface& aTexture)
 	{
-		myContext->ClearDepthStencilView(aTexture.GetTexture()->GetDepthStencil(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0.0f);
+		myContext->ClearDepthStencilView(aTexture.GetTexture()->GetDepthStencil(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1, 0);
 	}
 
 	void DirectX::BeginScene()
